@@ -7,19 +7,21 @@ body {
     width: 100vw;
     display: flex;
     flex-direction: column;
-    font-family: 'lato', sans-serif;
+    font-family: 'Andada Pro', serif;
+    font-style: italic;
     margin: 0px;
 }
 
 header {
     width: 100vw;
     position: sticky;
-    background-color: #F1C6CD;
+    background-image: linear-gradient(to right, magenta, blue);
 }
 
 .navigation {
     width: 100vw;
     min-height: fit-content;
+    color: white;
 }
 
 .inline-blocklogo {
@@ -73,7 +75,7 @@ section {
 }
 
 footer {
-    background-color: #373738;
+    background-color: blueviolet;
     margin-top: auto;
     height: 10vh;
 }
